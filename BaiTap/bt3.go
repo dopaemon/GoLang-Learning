@@ -1,7 +1,7 @@
 package main
 import "fmt"
 
-func dientich(arr []int) int {
+func chuvi(arr []int) int {
 	var a, b, c int
 	a = arr[0]
 	b = arr[1]
@@ -16,7 +16,7 @@ func main () {
 	fmt.Print("Nhập vào cạnh b: ")
 	fmt.Scanln(&e)
 	xs := []int{d, e}
-	fmt.Println("Diện tích hình chữ nhật cạnh a=", d, " Cạnh b=", e, " là ", dientich(xs))
+	fmt.Println("Diện tích hình chữ nhật cạnh a=", d, "Cạnh b=", e, "là", chuvi(xs))
 }
 
 // (a + b) * 2
